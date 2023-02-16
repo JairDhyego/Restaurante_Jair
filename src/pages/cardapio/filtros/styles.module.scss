@@ -1,0 +1,37 @@
+$padding-horizontal-mobile: 100px;
+$padding-horizontal-sm: 150px;
+$padding-horizontal-md: 200px;
+$padding-horizontal: 250px;
+$dark: #242536;
+$dark-grey: #92929d;
+$grey: #e4e4e4;
+$black: #4c4d5e;
+$light-grey: #f6f6f6;
+$blue: #282b57;
+$red: #d73b3b;
+
+.filtros {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  &__filtro {
+    align-items: center;
+    background-color: $grey;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    font-size: 1.25rem;
+    font-weight: bold;
+    height: 40px;
+    justify-content: center;
+    width: 150px;
+    &--ativo {
+      background-color: $blue;
+      color: white;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
